@@ -1,0 +1,14 @@
+{
+  "name": "twitter-bookmarks-obsidian-importer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Import X (Twitter) bookmarks from an official X data archive into an Obsidian vault.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.mjs",
+    "import": "node import.mjs"
+  }
+}
